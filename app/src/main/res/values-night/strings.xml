@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="zero">0</string>
+    <string name="add_to_favorite">Add to Favorite</string>
+    <string name="generate_another_quote">Generate Another Quote</string>
+    <string name="quote">“All I required to be happy was friendship and people I could admire.”</string>
+    <string name="author_name">Christian Dior</string>
+    <string name="favorite_quotes">Click Here To View Favorite Quotes</string>
+    <string name="back_to_home_screen">Back To Home Screen</string>
+    <string name="search">Type Something Here To Search..</string>
+    <string name="remove_from_favorite">Remove From Favorite</string>
+</resources>

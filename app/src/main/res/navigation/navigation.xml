@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/quoteScreen">
+
+    <fragment
+        android:id="@+id/quoteScreen"
+        android:name="com.abufoda.quotegenerator.ui.QuoteScreen"
+        android:label="fragment_quote_screen"
+        tools:layout="@layout/fragment_quote_screen" >
+        <action
+            android:id="@+id/action_quoteScreen_to_favoriteScreen"
+            app:destination="@id/favoriteScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteScreen"
+        android:name="com.abufoda.quotegenerator.ui.FavoriteScreen"
+        android:label="FavoriteScreen" >
+        <action
+            android:id="@+id/action_favoriteScreen_to_quoteScreen"
+            app:destination="@id/quoteScreen" />
+    </fragment>
+</navigation>
